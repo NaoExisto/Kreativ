@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+main {
+    width: 2679px;
+    height: 1746px;
+    background-color: #3E708E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counteiner {
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.left {
+    width: 787px;
+    height: 1024px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right {
+    width: 653px;
+    height: 1024px;
+    background-color: #517879;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #517879);
+    
+    
+    
+}
+#home{
+    height: 900px;
+}
